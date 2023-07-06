@@ -19,7 +19,7 @@ View [Odin Recipes](https://tkdblake93.github.io/odin-recipes/).
   Hard-coding the height values in the CSS would've
   prevented that consistency.
 
-- I applied `overflow-x: hidden;` on the body element
+- I applied `overflow-x: hidden;` on the html element
   to avoid side-scrolling on some devices.
 
 - I tested all the different devices available in Google
