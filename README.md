@@ -13,7 +13,7 @@ View [Odin Recipes](https://tkdblake93.github.io/odin-recipes/).
   across different devices to dynamically resize the
   heights of the nav menu and the iframe element itself.
   I used `onload` and `onchange` on the body tag. I did
-  this to avoid having the nav menu from overlaying the
+  this to keep the nav menu from overlaying the
   iframe element on some devices. Also, I wanted some
   consistency on how the page appears across devices.
   Hard-coding the height values in the CSS would've
