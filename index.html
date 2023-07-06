@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odin Recipes</title>
+    <link rel="stylesheet" href="./recipes/style.css" />
+  </head>
+  <body onload="resizeMenuIframe()" onchange="resizeMenuIframe()">
+    <div class="container">
+      <div class="index-menu">
+        <h1 class="index-h1">Odin Recipes</h1>
+        <ul class="recipes-links">
+          <li>
+            <a href="./recipes/ranch-chicken-tacos.html" target="iframe_menu"
+              >Ranch&nbsp;Chicken&nbsp;Tacos</a
+            >
+          </li>
+          <li>
+            <a
+              href="./recipes/slow-cooker-tuscan-chicken.html"
+              target="iframe_menu"
+              >Slow&nbsp;Cooker&nbsp;Tuscan&nbsp;Chicken</a
+            >
+          </li>
+          <li>
+            <a href="./recipes/traditional-gyros.html" target="iframe_menu">
+              Traditional&nbsp;Gyros</a
+            >
+          </li>
+        </ul>
+      </div>
+      <iframe
+        src="./recipes/ranch-chicken-tacos.html"
+        id="iframe-recipes"
+        name="iframe_menu"
+        frameborder="0"
+        title="recipes"
+      ></iframe>
+    </div>
+    <script>
+      // Resize menu and iframe vh heights for different devices
+      let resizeMenuIframe = () => {
+        let windowHeight = window.innerHeight;
+        let iframeHeight =
+          document.querySelector("#iframe-recipes").scrollHeight;
+        let menuHeight = windowHeight - iframeHeight;
+        vhMenuHeight = (menuHeight / windowHeight) * 100 + "vh";
+        vhIframeHeight = (iframeHeight / windowHeight) * 100 - 52 + "vh";
+        document.querySelector("iframe").style.height = vhMenuHeight;
+        document.querySelector(".index-menu").style.height = vhIframeHeight;
+      };
+    </script>
+  </body>
+</html>
