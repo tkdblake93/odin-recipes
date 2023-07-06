@@ -1,6 +1,7 @@
 # odin-recipes
 
 This is a project I did for The Odin Project.
+View [Odin Recipes](https://tkdblake93.github.io/odin-recipes/).
 
 - I took what I learned about HTML, CSS, and JavaScript
   over the years and made it not so basic.
@@ -38,5 +39,3 @@ This is a project I did for The Odin Project.
 Using the `cite` tag, I linked to the pages where I got
 the recipes, just in case someone wants to try one or
 more of them out.
-
-View [Odin Recipes](https://tkdblake93.github.io/odin-recipes/).
