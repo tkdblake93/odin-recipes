@@ -26,7 +26,7 @@ View [Odin Recipes](https://tkdblake93.github.io/odin-recipes/).
   Chrome inspector.
 
 - I used the Google search engine to figure out how to
-  accompanied what I did on this project, especially
+  accomplish what I did on this project, especially
   when I was manipulating DOM elements with JavaScript
   and dynamically applying them to CSS property values.
 
